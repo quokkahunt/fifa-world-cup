@@ -1,0 +1,228 @@
+/* ---------------
+      font-style
+   --------------- */
+   @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+   /* common-style */
+   body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+   }
+   main{
+    width: 1250px;  
+    margin-left: 140px;
+    margin-right: 140px;
+   }
+   /* top-banner common style */
+   .top{
+    background-color:#161616;
+    width: 1150px;
+    height:640px;
+    margin-top: 42px;
+    padding: 50px;
+    padding-bottom: 0;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    }
+    .top-banner{
+        display: flex;
+        align-items: center;
+    }
+   
+   /* -----------------
+      banner head style 
+      ------------------*/
+   h2{
+        font-weight: 700;
+        color: white;
+        font-size: 70px;
+        margin-top:0;
+        margin-bottom:5px;
+        width: 500px;
+   }
+   .info p{
+    color: white;
+     width: 500px; 
+   }
+   /* button style */
+   .watch{
+    width:150px;
+    height: 60px;
+    background-color: rgb(219, 28, 28);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+   }
+   /* ----------------------
+       banner-image style 
+     -----------------------*/
+
+   .top-banner .banner-img img{
+    width: 550px;
+    height: 640px;
+   }
+   /*------------------
+    middle common style
+    --------------------*/
+    .middle{
+        margin-top: 100px;
+        margin-bottom: 100px;
+      }
+      /* display style */
+  
+      .middle-blogs{
+        display: flex;
+      } 
+  
+      /* -----------------
+      side-bar style
+      -------------------- */
+
+      .side-bar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        height: 210px;
+        background-color: #161616;
+        padding: 10px;
+        border-radius: 10px;
+        margin-right: 45px;
+      }
+      .fixed{
+        background-color: red;
+        color: white;
+      }
+  
+      /* button design */
+  
+      .side-bar .bar{
+        font-size: 20px;
+        font-weight: 700px;
+        border-radius: 10px;
+        padding: 15px;
+        width: 250px;
+        margin-top: 10px;
+        
+      }
+
+      /* --------------
+         Fixed Button color
+         -------------- */
+
+      .fixed{
+          background-color: red;
+          color: white;
+        }
+
+        /* ------------------
+        Grid-view section style 
+        -----------------------*/
+
+      .schedul{
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-gap: 25px;
+          padding-right: 0;
+      }
+      .games-schedul{
+          border: 1px solid rgb(207, 214, 222);
+          border-radius: 10px;
+          padding: 5px;
+      }
+      .flags{
+          display: flex;
+      }
+      .games{
+          padding: 7px;
+      }
+      .country{
+          text-align: center;
+      }
+      .country .date{
+          font-size: 12px;
+          font-weight: 400;
+      }
+
+          /* Footer common style */
+
+  
+          .goal{
+              background-color: #161616;
+              height: 300px;
+            }
+
+        /* --------------------
+            Footer head and line style 
+            --------------------------*/
+
+            h3{
+              font-size: 30px;
+              font-weight: 700;
+              color: white;
+              text-align: center;
+              padding: 60px;
+              padding-bottom: 10px;
+            }
+            hr{
+              width: 1040px;
+            }
+
+            /* -----------------------
+            nav link style
+            --------------------------- */
+
+            .contact{
+              text-align: center;
+            }
+            nav a{
+              text-decoration: none;
+              color: aliceblue;
+              padding-left: 30px;
+              padding-right: 30px;
+            }
+            .social-link{
+              text-align: center;
+              
+            }
+            .social-link .fa-brands{
+              color: antiquewhite;
+              font-size: 25px;
+              margin: 30px;
+            }
+
+            /*---------- 
+            Responsive Section 
+            ----------------------*/
+
+            /* Desktop View  */
+
+            @media screen and (min-width: 1024px) {
+              
+            }
+
+            /* Tablet View  */
+
+            @media screen and (min-width: 768px) and (max-width: 1023px) {
+              .foot{
+                display: grid;
+                grid-template-rows: repeat(6, 1fr);
+                justify-content: center;
+              }
+              .contact{
+                display: grid;
+              }
+              
+            }
+
+            /* Mobile View  */
+
+            @media screen and (max-width: 767px) {
+              .foot{
+                display: grid;
+                grid-template-rows: repeat(6, 1fr);
+              }
+              
+            }
